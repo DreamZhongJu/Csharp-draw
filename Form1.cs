@@ -143,8 +143,8 @@ namespace Dashboard
             Graphics g = panel3.CreateGraphics();
             string text = textBox1.Text.ToString();
             Font font = new Font(selectedFontFamily, 20, FontStyle.Bold);
-            Rectangle textRect = new Rectangle(10, 90, 2000, 200);
-            LinearGradientBrush lgb = new LinearGradientBrush(textRect, Color.Red, Color.Blue, 45);
+            Rectangle textRect = new Rectangle(10, 90, 200, 200);
+            LinearGradientBrush lgb = new LinearGradientBrush(textRect, Color.Red, Color.Blue,2);
             g.DrawString(text, font, lgb, textRect);
         }
 
