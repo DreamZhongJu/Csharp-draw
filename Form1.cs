@@ -131,7 +131,7 @@ namespace Dashboard
             // 矩形
             g.DrawRectangle(pen, new Rectangle(10, 10, 100, 50));
             // 椭圆
-            g.DrawEllipse(pen, new Rectangle(120, 10, 100, 50));
+            g.DrawEllipse(pen, new Rectangle(10, 10, 100, 50));
             // 线段
             g.DrawLine(pen, new Point(10, 70), new Point(230, 70));
         }
